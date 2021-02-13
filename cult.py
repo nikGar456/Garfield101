@@ -23,6 +23,7 @@ pg.display.update()
 
 gameExit = False
 
+"""This is my game loop"""
 while not gameExit:
     for event in pg.event.get():
         print(event)
